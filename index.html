@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote-Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="programming.ico" type="image/x-icon">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/c2be89540f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="quote-container" id="quote-container">
+        <!-- quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">Wait</span>
+        </div>
+        <div class="author">
+            <span>Character: </span>
+            <span id="author">Kudasai</span>
+        </div>
+        <div class="name">
+            <span>Anime: </span>
+            <span id="name"></span>
+        </div>
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="tweet-this">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </div>
+    <!-- loader -->
+    <div id="loader" class="loader"></div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
